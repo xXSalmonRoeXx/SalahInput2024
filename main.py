@@ -4,7 +4,7 @@ import requests
 st.set_page_config("Salah Input 2024", "📢")
 
 st.header("CEK SALAH INPUT PILPRES 2024")
-st.subheader("Aplikasi ini akan menunjukkan TPS yang memiliki total suara capres lebih besar dari total suara sah juga yang memiliki total suara capres lebih dari 300")
+st.subheader("Aplikasi ini akan menunjukkan TPS yang memiliki total suara capres lebih besar dari total suara sah juga yang memiliki total suara capres lebih dari 300 di kelurahan yang dipilih")
 st.write("*Aplikasi ini tidak menghitung TPS yang belum melakukan submit serta TPS yang belum memasukkan data DPT*")
 
 def checkTPSSus(kelurahan_ID):
